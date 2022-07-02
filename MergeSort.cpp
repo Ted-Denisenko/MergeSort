@@ -53,4 +53,3 @@ int main()
 	for (int i = 0; i < ARRAY_SIZE; i++)
 		std::cout << array[i] << " ";
 }
-
