@@ -1,6 +1,6 @@
 #include <iostream>
 
-#define ARRAY_SIZE 5
+#define ARRAY_SIZE 4
 
 // Сортировка слиянием:
 /*
@@ -45,7 +45,7 @@ void MergeSort(int a[], int size)
 
 int main()
 {
-	int array[ARRAY_SIZE] = {16,24,60,15,69};
+	int array[ARRAY_SIZE] = {16,24,60,15};
 	for (int i = 0; i < ARRAY_SIZE; i++)
 		std::cout << array[i] << " ";
 	std::cout << std::endl;
@@ -53,4 +53,3 @@ int main()
 	for (int i = 0; i < ARRAY_SIZE; i++)
 		std::cout << array[i] << " ";
 }
-
